@@ -40,6 +40,7 @@ pipeline {
             steps {
                 // Publish Jacoco coverage report
                 //jacoco()
+                bat 'echo "Test"'
             }
         }
         stage('Build Docker Image') {
