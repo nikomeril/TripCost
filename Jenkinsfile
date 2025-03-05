@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKERHUB_CREDENTIALS_ID = 'dockerhub'
+        DOCKERHUB_CREDENTIALS_ID = 'hub'
         DOCKERHUB_REPO = 'nikome1/tripcost'
         DOCKER_IMAGE_TAG = 'ver1'
         //PATH = %PATH%';C:\\Program Files\\apache-maven-3.9.9\\bin'
