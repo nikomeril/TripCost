@@ -5,7 +5,8 @@ pipeline {
         DOCKERHUB_CREDENTIALS_ID = 'dockerhub-credentials'
         DOCKERHUB_REPO = 'nikome1/tripcost'
         DOCKER_IMAGE_TAG = 'ver1'
-        PATH = '%PATH%;C:\\Program Files\\apache-maven-3.9.9\\bin'
+        //PATH = %PATH%';C:\\Program Files\\apache-maven-3.9.9\\bin'
+        PATH = 'C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\VSCodium\bin;C:\Program Files\nodejs\;C:\Program Files\Kubernetes\Minikube;C:\Program Files\PuTTY\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\Users\mutum\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\mutum\AppData\Local\Programs\Python\Python39\;C:\Users\mutum\AppData\Local\Microsoft\WindowsApps;C:\Users\mutum\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\mutum\AppData\Roaming\npm;C:\Program Files\apache-maven-3.9.9\bin;'
     }
 
     stages {
