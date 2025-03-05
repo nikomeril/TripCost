@@ -39,7 +39,7 @@ pipeline {
         stage('Publish Coverage Report') {
             steps {
                 // Publish Jacoco coverage report
-                jacoco()
+                //jacoco()
             }
         }
         stage('Build Docker Image') {
